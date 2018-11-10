@@ -37,7 +37,7 @@
                     -->
                     <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.kubernetes.TcpDiscoveryKubernetesIpFinder">
                         <!-- Assumed that you have RBAC configured and `ignite` namespace created for it. -->
-                        <property name="namespace" value="ignite"/>
+                        <property name="namespace" value="com-att-kepler-dle"/>
                     </bean>
                 </property>
             </bean>
